@@ -14,7 +14,7 @@
     "lodash": "4.17.21",
     "express": "4.16.0",
     "moment": "2.19.3",
-    "axios": "0.18.0",
+    "axios": "0.30.2",
     "mongoose": "5.7.5",
     "jsonwebtoken": "8.5.0",
     "bcrypt": "3.0.6",

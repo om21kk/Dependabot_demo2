@@ -1,0 +1,50 @@
+{
+  "name": "dependabot-test-project",
+  "version": "1.0.0",
+  "description": "Large test project for Dependabot vulnerability detection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "express": "4.16.0",
+    "moment": "2.19.3",
+    "axios": "0.18.0",
+    "mongoose": "5.7.5",
+    "jsonwebtoken": "8.5.0",
+    "bcrypt": "3.0.6",
+    "multer": "1.4.1",
+    "cors": "2.8.4",
+    "helmet": "3.21.0",
+    "morgan": "1.9.0",
+    "dotenv": "6.2.0",
+    "validator": "10.11.0",
+    "nodemailer": "4.7.0",
+    "socket.io": "2.3.0",
+    "redis": "2.8.0",
+    "mysql2": "1.7.0",
+    "sequelize": "4.44.0",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0"
+  },
+  "devDependencies": {
+    "webpack": "4.29.0",
+    "webpack-cli": "3.2.0",
+    "nodemon": "1.19.0",
+    "jest": "24.8.0",
+    "eslint": "5.16.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "css-loader": "2.1.0",
+    "style-loader": "0.23.0",
+    "html-webpack-plugin": "3.2.0"
+  },
+  "keywords": ["dependabot", "security", "test", "nodejs", "express"],
+  "author": "Test User",
+  "license": "MIT"
+}
